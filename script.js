@@ -28,6 +28,7 @@ function randomNumber() {
     return randomColor
 }
 
+
 function randomGradient() {
     // console.log(randomNumber(), randomNumber(), randomNumber())
     body.style.background = "linear-gradient(to right, rgb("
@@ -46,6 +47,8 @@ function randomGradient() {
     h3.textContent = body.style.background + ";"
 }
 
+
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
 button.addEventListener("click", randomGradient);
+
